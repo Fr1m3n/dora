@@ -10,7 +10,7 @@ setInterval(function(){
     let q = document.getElementById("tid");
     // console.log(now_date);
     if(i <= 0){
-        window.location.href = 'https://hbdr.herokuapp.com/main11'
+        window.location.href = 'https://hbdr.herokuapp.com/main111'
     }
     q.innerText = (i / 1000).toFixed().toString();
 }, 1000);
