@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+}
+
+
+#wrong {
+    color: firebrick;
+    visibility: hidden;
+}
+
+label {
+    /*width: 90%;*/
+    margin: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    background: rgba(94, 137, 251, 0.03);
+    border-radius: 10%;
+    /*border: rgba(32, 37, 18, 0.29) 1px solid;*/
+}
+
+input {
+    padding: 5px;
+    /*margin: 10px;*/
+    margin: 10px;
+    margin-left: 5px;
+    background: rgba(27,37,11,0.29);
+    border: none;
+}
+
+#main {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    visibility: hidden;
+    font-size: 56px;
+}
+
+#form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    float: top;
+    background: rgba(116,65,109,0.07);
+    padding: 10px;
+    border-radius: 5%;
+}
+
+#btn-next {
+    position: absolute;
+    text-align: center;
+    vertical-align: center;
+    right: 20%;
+    bottom: 5%;
+    height: 1.5em;
+    width: 3em;
+    border-radius: 5%;
+    background: rgba(9,37,0,0.29);
+    visibility: hidden;
+}
