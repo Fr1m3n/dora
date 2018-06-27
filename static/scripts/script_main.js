@@ -92,7 +92,7 @@ function checkName() {
 }
 
 function next() {
-    const TIME = 1250;
+    const TIME = 2000;
     let btn = document.getElementById('btn-next');
     btn.style.visibility = 'hidden';
     if (bo === true) {
