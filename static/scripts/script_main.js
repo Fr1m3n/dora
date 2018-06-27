@@ -103,7 +103,7 @@ function next() {
     let text_anim = anime({
         targets: '#main',
         opacity: 0,
-        elasticy: 0,
+        elasticity: 0,
         duration: TIME,
         complete: function () {
             console.log(slides[i].text);
@@ -127,7 +127,7 @@ function next() {
             let closetext_anim = anime({
                 targets: '#main',
                 opacity: 1,
-                elasticy: 0,
+                elasticity: 0,
                 duration: TIME,
             });
         }
