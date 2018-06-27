@@ -91,8 +91,9 @@ function checkName() {
     }
 }
 
+let TIME = 3000;
+
 function next() {
-    const TIME = 2000;
     let btn = document.getElementById('btn-next');
     btn.style.visibility = 'hidden';
     if (bo === true) {
